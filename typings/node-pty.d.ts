@@ -111,6 +111,8 @@ declare module 'node-pty' {
      */
     readonly pid: number;
 
+    readonly fd: number;
+
     /**
      * The column size in characters.
      */

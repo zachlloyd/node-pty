@@ -45,6 +45,7 @@ export abstract class Terminal implements ITerminal {
   private _onExit = new EventEmitter2<IExitEvent>();
   public get onExit(): IEvent<IExitEvent> { return this._onExit.event; }
 
+  public get fd(): number { return this._fd; }
   public get pid(): number { return this._pid; }
   public get cols(): number { return this._cols; }
   public get rows(): number { return this._rows; }
