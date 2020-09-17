@@ -10,7 +10,8 @@
     ],
     "alwaysStrict": true,
     "noImplicitAny": true,
-    "noImplicitThis": true
+    "noImplicitThis": true,
+    "typeRoots": ["../node_modules/@types"]
   },
   "exclude": [
     "node_modules",
